@@ -1,0 +1,25 @@
+#  Ignore everything
+*
+
+# Except for MarkDown files
+!*.md
+
+# Except tex files
+
+!.gitignore
+!*.tex
+!*.bib
+
+
+# Except figures
+
+!*.png
+!*.gif
+!*.jpg
+!*.jpeg
+!*.tiff
+!/Img/*.pdf
+
+# ... even if they are in subdirectories
+
+!*/
