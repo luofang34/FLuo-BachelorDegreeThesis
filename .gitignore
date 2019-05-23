@@ -11,6 +11,11 @@
 !*.bib
 
 
+# Except style files
+!*.cls
+!*.cfg
+!*.sty
+!*.bst
 # Except figures
 
 !*.png
