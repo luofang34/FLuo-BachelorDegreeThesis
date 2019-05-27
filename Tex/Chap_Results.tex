@@ -1,11 +1,18 @@
 \chapter{结果}\label{chap:results}
 
 \section{Labeling BDNF neurons by using BDNF-IRES-Cre driver mice}
-测试引用\citep{zhang2017whole,wickersham2007monosynaptic,huang1974differential}
+我们使用Cre/LoxP的方法来标记表达BDNF的神经元，通过Cre重组酶来驱动含有LoxP位点的荧光报告基因的表达。Bdnf基因具有复杂的结构，通过9个上游启动子来驱动一个小外显子被剪接到含有BDNF的完整编码区的共同外显子上（？？？） \cite{timmusk1993multiple}, \cite{altieri2004expression}从而使9种不同的转录物编码相同的蛋白质，并且不同的转录物可使BDNF蛋白质在不同区域或发育阶段的不同细胞类型中表达以实现不同的生理功能\citep{sakata2009critical}, \cite{maynard2016functional}因此，为了驱动Cre在所有表达BDNF的神经元中表达，我们使用CRISPR/Cas9基因编辑技术在共同外显子的终止密码子后敲入IRES-Cre（\figurename{1A}）。在基因组重组序列验证成功后，我们将BDNF-IRES-Cre小鼠与绿色荧光报告系LSL.EGFPL10 \cite{stanley2013profiling}杂交，并在许多已知的下丘脑脑区，包括POA\citep{tan2016warm}, \cite{zhao2017hypothalamic}，PVN\citep{an2015discrete}，DMH和VMH\citep{unger2007selective,wang2010brain} 中验证GFP的表达\figurename{1B}。
+
 \section{Viewing presynaptic inputs to PVNBDNF neurons by using rabies virus}
+我们将三病毒系统与Cre/LoxP基因表达系统\citep{wickersham2007monosynaptic}相结合，从而实现细胞类型特异性逆行跨单突触追踪\figurename{1C}。我们使用了表达vian sarcoma-leukosis virus的糖蛋白（RG）缺陷型SAD19-DG-mCherry（EnvA）狂犬病病毒（RV）。这使得病毒能够选择性地感染表达TVA的哺乳动物神经元，而TVA则是EnvA的同源病毒受体。将两种Cre依赖性AAV辅助病毒（AAV-DIO-EGFP-2A-TVA和AAV-DIO-RG）立体定位注射到BDNF-IRES-Cre驱动小鼠的双侧PVN中\figurename{1C}。这些辅助病毒能表达EGFP-TVA从而使得狂犬病病毒可以感染胞体，并使得狂犬病RG可以从初始被感染神经元跨突触扩散。在3周后注射狂犬病病毒SAD19-DG-mCherry（EnvA）到相同区域以启动EGFP-TVA和RG的表达。在狂犬病病毒复制及跨突触传递一周后，解剖小鼠大脑进行免疫组化。在双边PVN中检测到EGFP-TVA信号和RV-mCherry信号\figurename{1D}。共表达EGFP-TVA和RV-mCherry的起始神经元被限制在PVN\figurename{1D}。最初，RV感染的神经元和传入神经元由RV-mCherry标记。图像显示，~37％的EGFP-TVA神经元共表达RV-mCherry；~28％的RV-mCherry神经元在PVN内共表达EGFP-TVA，说明该区域神经元中原本就存在TVA表达。\label{1D}我们检查了mCherry$^{+}$传入神经元，发现其广泛分布于整个大脑。相比之下，我们没有检测出注射部位外的EGFP$^{+}$神经元，这表明注射部位之外的mCherry信号是由突触后狂犬病病毒扩散产生的。
 
 \section{Input patterns of PVNBDNF neurons}
+在跨突触追踪后，我们分析了传入PVN$^{BDNF}$神经元的mCherry$^{+}$突触前信号的全脑模式，并发现了一些被标记的离散脑区。这些区域包括腹侧和外侧眶皮质（VO/LO），背侧韧带（DTT），LS，POA，网状核（Rt），视上核（SO），内侧杏仁核（MeA），丘脑下丘脑（Sub），PVA，后下丘脑（PH），VMH，Arc，ZI，乳头前核（PMV）腹侧部分，后外侧杏仁核（BLp），锥体细胞海马体（py）层，导水管周围灰质（PAG），S，RMg和RPa\figurename{2}。
+
+我们进一步分析了不同核团的细胞数量和细胞密度，发现PVN$^{BDNF}$神经元接收了总计来自全脑26423±5500个（n=3只小鼠）神经元的传入信号。大多数传入神经元（约52％）来自下丘脑，丘脑约4％，中隔约10％，中脑约5％，脑干约4％\figurename{3}。
 
 \section{Axonal projection patterns of PVNBDNF neurons}
+先前的研究表明PVN$^{BDNF}$神经元投射到脊髓运动前神经元从而促进iBAT产热\citep{an2015discrete}。其大脑内的投射模式目前尚未被揭示。在这项研究中，我们利用AAV-DIO-EGFP-2A-TVA作为有效的顺行示踪剂，以揭示BDNF-IRES-Cre小鼠中PVN$^{BDNF}$神经元的轴突投射模式。 如图4所示，投射密度最大的部位位于下丘脑，尤其是POA，DMH，VMH和ZI。 我们还在丘脑的PVA，中脑的PAG，杏仁核和隔膜的LS中发现了密集的投射。 我们在脑干中发现了显着的投射，例如LPB，RMg和RPa。
 
 \section{Reciprocal projections between PVN BDNF neurons and their presynaptic inputs}
+为了系统地绘制PVN BDNF神经元与其突触前传入神经元之间的相互投射，我们分析了提供> 1％ PVN BDNF输入信号的脑区\figurename{5}。 我们叠映了AAV-EGFP的终端信号和RV-mCherry的胞体信号，发现几乎所有区域都相互接收来自PVN BDNF神经元的轴突投射，如LS，PVA，VMH，ZI，S，LPB ，RMg和RPa。
