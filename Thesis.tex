@@ -44,6 +44,16 @@
 \let\openbox\relax
 \usepackage{amsthm}
 
+\usepackage{hyperref}
+\hypersetup{
+    %colorlinks=true,
+    %linkcolor=blue,
+    %filecolor=blue,      
+    urlcolor=blue,
+    %citecolor=cyan,
+}
+
+
 %---------------------------------------------------------------------------%
 %->> 对于数学定理的表示
 \theoremstyle{plain}
@@ -80,9 +90,9 @@
 %\intotoc{\contentsname}% add link to contents table and bookmark
 \tableofcontents% contents catalog
 %\intotoc{\listfigurename}% add link to contents table and bookmark
-\listoffigures% figures catalog
+%\listoffigures% figures catalog
 %\intotoc{\listtablename}% add link to contents table and bookmark
-\listoftables% tables catalog
+%\listoftables% tables catalog
 }
 \input{Tex/Prematter}% list of symbols, preface content
 %-
@@ -94,8 +104,8 @@
 %-> Appendix
 %-
 \cleardoublepage%
-\appendix% initialize the environment
-\input{Tex/Appendix}% appendix content
+%\appendix% initialize the environment
+%\input{Tex/Appendix}% appendix content
 %-
 %-> Backmatter: bibliography, glossary, index
 %-
